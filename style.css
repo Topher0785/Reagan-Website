@@ -12,12 +12,16 @@ body {
     padding: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:purple;
-    color: #fff
+    color: #fff;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+}
+
+.header. h1 .seo {
+    color: #d9dcd6;
 }
 
 .header nav {
@@ -38,7 +42,8 @@ body {
 }
 
 a {
-    color: #fff
+    color: #fff;
+    text-decoration: none;
 }
 
 p {
@@ -67,5 +72,59 @@ p {
     width:75%;
     display: inline-block;
     margin-left: 20px;
+}
 
+.content-a {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(201, 99, 116);
+    color: #fff;
+}
+
+.details {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: purple;
+}
+
+.detail {
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.detail h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.detail img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.content-a {
+    max-height: 200px;
+}
+
+.content-a h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
 }
